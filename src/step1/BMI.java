@@ -1,5 +1,14 @@
 package step1;
 import java.util.Scanner;
+/**
+몸무게랑 키를 입력받습니다.
+18.5 미만이면 저체중, 
+18.5∼23은 정상,
+23~25이면 '비만 전단계'[5],
+25∼30은 '1단계 비만', 
+30∼35는 '2단계 비만' , 
+35 이상이면 '3단계 비만
+ * */
 public class BMI {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
