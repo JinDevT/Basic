@@ -14,7 +14,7 @@ public class Starbucks02 {
 			String count= "";
 			int price = 0;
 			int[] prices = {3000, 3500, 4000};
-			String[] menu = {"아메리카노", "라떼", "카푸치노"};
+			String[] menu = {"아메리카노", "라떼", "카푸치노"}; 
 			switch(option) {
 			case "0": 
 				String total = JOptionPane.showInputDialog("금액  " + totalPrice);

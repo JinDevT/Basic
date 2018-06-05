@@ -28,7 +28,7 @@ public class Starbucks {
 			case 1: 
 				System.out.println("몇잔 드릴까요?");
 				count = sc.nextInt();
-				result = menu[0]+count+"잔";
+				result = menu[0]+count+"잔";  
 				price = count*prices[0];
 				totalPrice += price;
 				

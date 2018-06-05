@@ -10,7 +10,7 @@ public class Starbucks3 {
 		int totalPrice = 0;
 		while(true){
 			String option = JOptionPane.showInputDialog(
-					"0주문완료 \n"
+					"0주문완료 \n" 
 					+ "1아메리카노3000\n"
 					+ "2라떼3500\n"
 					+ "3카푸치노4000\n");

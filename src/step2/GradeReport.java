@@ -28,7 +28,7 @@ public class GradeReport {
 
 			switch (scanner.nextInt()) {
 			case 1:
-				System.out.println("종료합니다.");
+				System.out.println("종료합니다."); 
 				return;
 			case 2:
 				int kor = 0, eng = 0, math = 0, avg = 0, sum = 0;

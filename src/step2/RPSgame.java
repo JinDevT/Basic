@@ -12,7 +12,7 @@ public class RPSgame {
 
 		String result = "b가 이겼습니다.";
 
-		if(a.equals(b)){
+		if(a.equals(b)){ 
 			result="a와 b는 비겼습니다.";
 		}else if(a.equals("R") && b.equals("P") ||
 				 a.equals("S") && b.equals("R") ||

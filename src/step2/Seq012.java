@@ -55,7 +55,7 @@ Scanner scanner = new Scanner(System.in);
 				
 				for(int i = start; i<=end; i++) {
 					if(i%2==0) {
-						Odd++;
+						Odd++; 
 					}
 				}
 				counttotal = Odd;

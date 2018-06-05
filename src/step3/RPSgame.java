@@ -16,9 +16,9 @@ public class RPSgame {
 			}
 		
 		
-			int flag = user - com; 
+			//int flag = user - com; 
 			String result = "";
-			switch(flag){
+			switch(user ){
 			case -1: case 2:
 				JOptionPane.showMessageDialog(null, "com이 이겼습니다.");
 				break;

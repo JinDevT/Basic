@@ -13,7 +13,7 @@ public class Calc {
 			case "=":
 				JOptionPane.showMessageDialog(null, result2+"="+result);
 				
-				return;
+				return; 
 			case "+":
 				num2 = JOptionPane.showInputDialog("num2");
 				result += Integer.parseInt(num2);

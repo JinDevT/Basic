@@ -1,4 +1,4 @@
-package step2;
+package step3;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class GradeReport5 {
 		}else{
 			flag = false;
 		}
-	  	flag = (param>=0 && param<=100)?true:false;*/
+		flag = (param>=0 && param<=100)?true:false;*/
 		return (param>=0 && param<=100);
 	}
 	public static String[] getTotal(String[] params){
@@ -46,7 +46,7 @@ public class GradeReport5 {
 		for(int i=0;i<subjects.length;i++){
 			System.out.println(subjects[i]+" 점수를 입력하세요");
 			int temp = Integer.parseInt(scan.next());
-			if(input(temp)){
+			if(input(temp)){ 
 				params[i] = String.valueOf(temp);
 			}else{
 				i--;

@@ -19,7 +19,7 @@ public class GradeReport3 {
 		return result;
 
 	}
-	
+	 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 

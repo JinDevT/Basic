@@ -17,7 +17,7 @@ public class Seq012_2 {
 		start = (num > num2) ? num2 : num;
 
 		result[0] = start;
-		result[1] = end;
+		result[1] = end; 
 		return result;
 	}
 

@@ -9,8 +9,7 @@ public class Seq010 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		
-		while(true) {
+		 
 			System.out.println("1.종료 2.시작");
 			
 			switch(scanner.nextInt()) {
@@ -35,10 +34,11 @@ public class Seq010 {
 				System.out.println(result+sum); break;
 			default: System.out.println("에러"); break;
 			}
-		
+			
+				}
 		
 		}
-	}
-}
+	
+
 
 
