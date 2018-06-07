@@ -4,7 +4,7 @@ public class Diamond {
 		int[][] mar = new int[5][5];
 		int k=0;
 		for(int i=0; i<5; i++) {
-			if(i==0 || i==1 || i==2) {
+			if(i<3) {
 				for(int j=2-i; j<=2+i; j++) {
 					k++;
 					mar[i][j]=k;
@@ -24,9 +24,9 @@ public class Diamond {
 			
 		for(int i=0; i<5; i++) {
 			for(int j=0; j<5; j++) {
-				System.out.print(mar[i][j]+"\t");
+				System.out.printf("%d.",mar[i][j]);
 			}
-			System.out.println();
+			System.out.printf("\n");
 		}
 	}
 

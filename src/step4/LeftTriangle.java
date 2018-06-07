@@ -8,10 +8,13 @@ public class LeftTriangle {
 			for(int j=0; j<=i; j++) {
 				k++; 
 				mat[i][j]=k;
-				
-				System.out.print(k);
 			}
-			System.out.println();
+		}
+		for(int i=0; i<5; i++) {
+			for(int j =0; j<5; j++) {
+				System.out.printf("%d.",mat[i][j]);
+			}
+			System.out.printf("\n");
 		}
 
 	}

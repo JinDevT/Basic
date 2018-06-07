@@ -24,7 +24,7 @@ public class GradeReport4 {
 		int[] arr = input(scan) ;
 		String[] result = new String[3];
 		result[0] = String.valueOf(arr[0] + arr[1] + arr[2]);
-		result[1] = String.valueOf((result[0])/3);
+		result[1] = String.valueOf(Integer.parseInt(result[0])/3);
 	    switch(Integer.parseInt(result[1])/10){
             case 9: result[2]="A"; break;
             case 8: result[2]="B"; break;
